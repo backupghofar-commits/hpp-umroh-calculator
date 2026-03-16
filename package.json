@@ -1,0 +1,54 @@
+{
+  "name": "hpp-umroh-calculator",
+  "description": "Kalkulator HPP Umroh — PT. Tamima Jaya Wisata. React + TypeScript + Tailwind.",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0"
+  },
+  "dependencies": {
+    "clsx": "2.1.1",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "tailwind-merge": "3.4.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "4.1.17",
+    "@types/node": "^22.0.0",
+    "@types/react": "19.2.7",
+    "@types/react-dom": "19.2.3",
+    "@vitejs/plugin-react": "5.1.1",
+    "tailwindcss": "4.1.17",
+    "typescript": "5.9.3",
+    "vite": "7.2.4",
+    "vite-plugin-singlefile": "2.3.0"
+  },
+  "keywords": [
+    "umroh",
+    "hpp",
+    "kalkulator",
+    "travel",
+    "react",
+    "typescript",
+    "tailwindcss"
+  ],
+  "author": "PT. Tamima Jaya Wisata",
+  "license": "MIT",
+  "homepage": "https://github.com/YOUR_USERNAME/hpp-umroh-calculator",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR_USERNAME/hpp-umroh-calculator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YOUR_USERNAME/hpp-umroh-calculator/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  }
+}
